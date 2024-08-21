@@ -1,15 +1,15 @@
 // Arrays, arreglos o listas
 
 const fruits = ['🍍', '🍇', '🍏', '🍍']
-const fruits2 = ['Piña', 'Uvas', 'Manzana']
+//  fruits2 = ['Piña', 'Uvas', 'Manzana']
 
-const list = [1, '🚀', null, undefined, Symbol('Cosita'), true, 1n, [], {}]
+//const list = [1, '🚀', null, undefined, Symbol('Cosita'), true, 1n, [], {}]
 
-const todolist = ['Lavarme los dientes', 'tender la cama', ['estudiar javascript', 'hacer los ejercicios', 'hacer el examen']]
+// const todolist = ['Lavarme los dientes', 'tender la cama', ['estudiar javascript', 'hacer los ejercicios', 'hacer el examen']]
 
 // console.log(fruits[1])
 
-const name = 'Paula'
+// const name = 'Paula'
 
 // console.log(name.split(''))
 // console.log(name.split('u'))
@@ -23,28 +23,39 @@ const name = 'Paula'
 
 // console.log(list2)
 
-// console.log(fruits.push('🍉'))
+//console.log(fruits.push('🍉'))
 // console.log(fruits)
-// console.log(fruits.unshift('🍈'))
+//console.log(fruits.unshift('🍈'))
 // console.log(fruits)
 
-// console.log(fruits.pop())
+//console.log(fruits.pop(2))
 // console.log(fruits)
-// console.log(fruits.shift())
+//console.log(fruits.shift())
 // console.log(fruits)
 
 // fruits[5] = '🥭'
 // console.log(fruits[3])
 
-console.log(fruits.lastIndexOf('🍍'))
-console.log(fruits.concat(fruits2))
+// console.log(fruits.lastIndexOf('🍍'))
+//console.log(fruits.concat(fruits2))
 
-// const fruits3 = [fruits, fruits2].flat()
+const fruits3 = [fruits].flat()
 
-const string = [...'Daniel']
+for (let i=0;i<=fruits3.length;i++) {
+    if (fruits3[i]==='🍏') {
+        fruits3[i]="Apple"
+        
+        break
+    }
+    console.log(fruits3[i])
+}
+
+// const string = [...'Daniel']
 
 // Spread Operator ...
 
-const fruits3 = [...fruits, ...fruits2]
+// const fruits3 = [...fruits, ...fruits2]
 
-console.log(fruits3.slice(0, 3))
+console.log(fruits3)
+
+
