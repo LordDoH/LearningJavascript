@@ -1,7 +1,7 @@
 // Arrays, arreglos o listas
 
 const fruits = ['🍍', '🍇', '🍏', '🍍']
-const fruits2 = ['Piña', 'Uvas', 'Manzana']
+const fruits2 = ['Piña', 'Uvas', 'Manzana', 'Banana']
 
 const list = [1, '🚀', null, undefined, Symbol('Cosita'), true, 1n, [], {}]
 
