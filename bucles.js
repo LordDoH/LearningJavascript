@@ -1,4 +1,4 @@
-const nums = [0, 6, 4, 1, 2, 3]
+const nums = [0, 6, 4, 1, 2, 4]
 
 // while
 let i = 0
