@@ -2,6 +2,7 @@
 
 const fruits = ['🍍', '🍇', '🍏', '🍍']
 //  fruits2 = ['Piña', 'Uvas', 'Manzana']
+const fruits2 = ['Piña', 'Uvas', 'Manzana', 'Banana']
 
 //const list = [1, '🚀', null, undefined, Symbol('Cosita'), true, 1n, [], {}]
 
@@ -41,13 +42,13 @@ const fruits = ['🍍', '🍇', '🍏', '🍍']
 
 const fruits3 = [fruits].flat()
 
-for (let i=0;i<=fruits3.length;i++) {
-    if (fruits3[i]==='🍏') {
-        fruits3[i]="Apple"
-        
-        break
-    }
-    console.log(fruits3[i])
+for (let i = 0; i <= fruits3.length; i++) {
+  if (fruits3[i] === '🍏') {
+    fruits3[i] = 'Apple'
+
+    break
+  }
+  console.log(fruits3[i])
 }
 
 // const string = [...'Daniel']
@@ -57,5 +58,3 @@ for (let i=0;i<=fruits3.length;i++) {
 // const fruits3 = [...fruits, ...fruits2]
 
 console.log(fruits3)
-
-
