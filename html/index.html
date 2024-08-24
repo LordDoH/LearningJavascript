@@ -18,10 +18,49 @@
         <label>
           <span>Name</span>
           <input id="name" placeholder="Please enter your name" />
-          <input type="submit" value="Send" />
-          <input type="search" />
         </label>
+        <input type="submit" value="Send" />
+        <select id="color-select">
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+          <option value="yellow">Yellow</option>
+          <option value="purple">Purple</option>
+          <option value="orange">Orange</option>
+          <option value="pink">Pink</option>
+          <option value="brown">Brown</option>
+          <option value="black">Black</option>
+          <option value="white">White</option>
+          <option value="gray">Gray</option>
+        </select>
+        <input list="colors" id="color-input" />
+        <datalist id="colors">
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </datalist>
       </form>
+      <figure>
+        <img src="https://imagenes.muyinteresante.com/files/article_social_75/uploads/2024/01/18/65a9115d69bfc.jpeg" alt="Cute baby penguin" />
+        <figcaption>Cute baby penguin</figcaption>
+        <!-- The caption is not mandatory -->
+      </figure>
+      <video loop controls poster="https://imagenes.muyinteresante.com/files/article_social_75/uploads/2024/01/18/65a9115d69bfc.jpeg">
+        <source src="https://tekeye.uk/html/images/Joren_Falls_Izu_Jap.mp4" type="video/mp4" />
+        <source src="https://tekeye.uk/html/images/Joren_Falls_Izu_Jap2.mp4" type="video/mp4" />
+        Video not supported.
+      </video>
+      <audio controls>
+        <source src="https://onlinetestcase.com/wp-content/uploads/2023/06/100-KB-MP3.mp3" />
+      </audio>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/rbzxxbuk3sk?si=qbdyvB6w-M3LU9QK"
+        title="YouTube video player"
+        frameborder="0"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
     </main>
     <script src="script.js"></script>
   </body>
