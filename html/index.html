@@ -9,17 +9,39 @@
     <meta name="author" content="John Doe" />
     <title>Learning Javascript 🥷</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Estilos in-file -->
+    <!-- <style>
+      h1 {
+        color: rgb(249, 255, 51, 0.4);
+        background-color: #3d3d3d;
+      }
+      p {
+        color: #f0f0f0;
+        background-color: #3d3d3d;
+      }
+    </style> -->
   </head>
   <body>
     <main>
-      <h1>Hello World!</h1>
-      <p>Click the button to change the background color of this page.</p>
+      <!-- Estilos in-line -->
+      <!-- <h1 style="color: #3d3d3d">Hello World!</h1> -->
+      <div class="container">
+        <h1>This is title</h1>
+        <h2>Anything</h2>
+        <div>
+          <h1>This is other</h1>
+          <div>
+            <h1>Another</h1>
+          </div>
+        </div>
+      </div>
+      <h1 class="title" id="main-title">Hello World!</h1>
+      <p class="title">Click the button to change the background color of this page.</p>
       <form>
         <label>
           <span>Name</span>
           <input id="name" placeholder="Please enter your name" />
         </label>
-        <input type="submit" value="Send" />
         <select id="color-select">
           <option value="red">Red</option>
           <option value="green">Green</option>
@@ -33,6 +55,8 @@
           <option value="white">White</option>
           <option value="gray">Gray</option>
         </select>
+
+        <input type="submit" value="Send" />
         <input list="colors" id="color-input" />
         <datalist id="colors">
           <option value="red">Red</option>

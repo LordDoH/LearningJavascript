@@ -1,0 +1,92 @@
+h1 {
+  color: rgb(249, 255, 51, 0.4);
+  background-color: #3d3d3d;
+}
+/* 0.0.0.0.1 */
+
+.title {
+  color: beige;
+}
+/* 0.0.0.1.0 */
+
+#main-title {
+  color: gray;
+  background-color: beige;
+}
+/* 0.0.1.0.0 */
+
+/* In-line 0.1.0.0.0 */
+
+/* !important 1.0.0.0.0 */
+
+.title#main-title {
+  color: black;
+}
+/* 0.0.1.1.0 */
+
+/* DRY DONT REPEAT YOURSELF */
+
+#name:hover {
+  background-color: beige;
+  border-width: 0;
+}
+
+#main-title::after {
+  content: ' This is your name ';
+  color: black;
+}
+
+#main-title {
+  text-transform: uppercase;
+}
+
+/* Combinators */
+
+#color-select ~ input {
+  background-color: red;
+  display: block;
+}
+
+#color-select + input {
+  background-color: blue;
+}
+
+.container > h1 {
+  background-color: green;
+  /* border-width: 2px;
+  border-color: blue;
+  border-style: solid; */
+  border: 2px solid blue;
+  border-radius: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 20px; */
+  padding: 10vw 0 10px 10px;
+  margin-bottom: 50px;
+  font-size: 3em;
+}
+
+.container h1 {
+  background-color: rgb(55, 55, 48);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+  padding: 10px;
+}
+
+.container > h1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  max-height: 10px;
+  overflow: hidden;
+  padding: 0;
+  background-color: red;
+  border-color: red;
+  display: none;
+}
