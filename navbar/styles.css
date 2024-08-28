@@ -1,0 +1,57 @@
+/* Block__Element--Modifier */
+
+.navbar,
+.navbar__content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  justify-content: space-between;
+  padding: 0 4rem;
+  background: linear-gradient(-45deg, #003fff 0%, #004d66 30%, #003fff 30%, #003fff 35%, transparent 35%, transparent 100%);
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 2rem;
+  color: #333;
+}
+
+.navbar__menu-item {
+  list-style: none;
+  font-weight: 400;
+}
+
+.navbar__menu-item a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+.navbar__menu-item:first-child,
+.navbar__menu-item:hover {
+  font-weight: 600;
+}
+
+.navbar__button {
+  color: #333;
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  background-color: #fbfbfb;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.navbar__button:hover {
+  background-color: #f0f0f0;
+  font-weight: 600;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
