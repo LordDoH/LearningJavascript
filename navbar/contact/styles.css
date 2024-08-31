@@ -1,0 +1,136 @@
+/* Block__Element--Modifier */
+
+.navbar,
+.navbar__content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  justify-content: space-between;
+  padding: 0 4rem;
+  background: linear-gradient(-45deg, #003fff 0%, #004d66 30%, #003fff 30%, #003fff 35%, transparent 35%, transparent 100%);
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 2rem;
+  color: #333;
+}
+
+.navbar__menu-item {
+  list-style: none;
+  font-weight: 400;
+}
+
+.navbar__menu-item a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+.navbar__menu-item:first-child,
+.navbar__menu-item:hover {
+  font-weight: 600;
+}
+
+.navbar__button {
+  color: #333;
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  background-color: #fbfbfb;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.navbar__button:hover {
+  background-color: #f0f0f0;
+  font-weight: 600;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Form Styles */
+
+.main-container,
+.form,
+.form__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form {
+  min-width: 300px;
+  max-width: 400px;
+  gap: 1.5rem;
+}
+
+.main-container {
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form__label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #979797;
+}
+
+.form__input,
+.form__textarea {
+  padding: 10px;
+  padding-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #979797;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.form__input::placeholder,
+.form__textarea::placeholder {
+  opacity: 0.3;
+}
+
+.form__textarea {
+  resize: none;
+  min-width: 300px;
+  min-height: 16px;
+}
+
+.form__input:focus,
+.form__textarea:focus {
+  outline: none;
+  border-bottom: 2px solid #333;
+}
+
+.form__button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(to right, #ef0afd, #0ad4e2);
+  color: #fdfdfd;
+}
+
+.form__button:hover {
+  background: linear-gradient(to right, #0ad4e2, #ef0afd);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
