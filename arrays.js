@@ -15,14 +15,13 @@ const fruits2 = ['Piña', 'Uvas', 'Manzana', 'Banana']
 // console.log(name.split(''))
 // console.log(name.split('u'))
 // console.log(fruits.length)
+const list2 = new Array(5)
 
-// const list2 = new Array(5)
+list2[0] = 'Hola pirulo'
 
-// list2[0] = 'Hola pirulo'
+list2.fill('Hola mundo', 4)
 
-// list2.fill('Hola mundo', 2, 4)
-
-// console.log(list2)
+console.log(list2)
 
 //console.log(fruits.push('🍉'))
 // console.log(fruits)
