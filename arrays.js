@@ -57,3 +57,9 @@ for (let i = 0; i <= fruits3.length; i++) {
 // const fruits3 = [...fruits, ...fruits2]
 
 console.log(fruits3)
+
+const encodedUrI = '?name=Daniel&email=dani%40gmail.com&message=Send+me+a+budget+with+2+pair+of+socks+packages'
+
+const decodedURI = decodeURIComponent(encodedUrI)
+
+console.log(decodedURI)
